@@ -36,7 +36,7 @@ public:
 class AbstractCar : public IVehicle {
 
 protected:
-    //double kilometres;
+
     double fuel_tank_now;
     int distation;
     double fuel_loss;

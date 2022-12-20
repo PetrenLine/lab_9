@@ -47,7 +47,7 @@ void Test_objects::test_bicycle()
 {
     Bicycle bicycle;
     QVERIFY(bicycle.drive(1000));
-    //QVERIFY(bicycle.get_mileage() == 1000);
+
 }
 
 void Test_objects::test_route()
@@ -62,7 +62,7 @@ void Test_objects::test_route()
     Sedan *sedan = new Sedan();
     sedan->refuel();
     route.run(sedan);
-    QVERIFY(sedan->getKm() == 10);
+    QVERIFY(sedan->getKm() == 121);
 
 }
 
